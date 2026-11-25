@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+servidor/node_modules/
+web/node_modules/
+
+# Archivos de entorno (¡Tus contraseñas!)
+.env
+servidor/.env
+web/.env.local
+web/.env
+
+# Archivos de Next.js y Electron
+web/.next/
+web/out/
+web/dist/
+web/build/
+
+# Archivos de Android Studio (si estuvieran aquí)
+.gradle/
+.idea/
+*.apk
+*.aab
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+estructura.txt
