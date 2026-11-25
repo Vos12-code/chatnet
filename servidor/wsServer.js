@@ -2,7 +2,7 @@ const { WebSocketServer } = require('ws');
 const comandos = require('./comandos');
 const conexiones = require('./conexiones');
 
-const PUERTO_WS = process.env.PUERTO_WS || 5001;
+const PUERTO_WS = process.env.PORT || process.env.PUERTO_WS || 5001;
 
 function iniciarWS() {
   const wss = new WebSocketServer({ port: PUERTO_WS, host: '0.0.0.0' });
