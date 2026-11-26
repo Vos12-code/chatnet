@@ -12,7 +12,7 @@ function createWindow() {
     },
   });
 
-  win.loadURL('http://localhost:3000/?v=1');
+  win.loadURL('https://web-chi-two-strb9acp57.vercel.app');
 }
 
 app.whenReady().then(createWindow);
